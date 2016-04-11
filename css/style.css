@@ -9,7 +9,7 @@ img{
 
 .container{
   padding-bottom: 5px;
-  color: #FEF6EB;
+  color: #96C0CE;
 }
 
 a{
@@ -19,4 +19,9 @@ a{
 
 #fnews,#onews, #events{
   color: #BEB9B5;
+}
+
+quote{
+  font-size: 30%;
+  font-style: italic;
 }

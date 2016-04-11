@@ -1,1 +1,24 @@
+
 h1{
+  color: #C25B56;
+}
+
+img{
+  position: center;
+}
+
+.container{
+  padding-bottom: 5px;
+  color: #FEF6EB;
+}
+.navbar{
+  color: #525564;
+}
+a{
+  text-decoration: none;
+  
+}
+
+#fnews,#onews, #events{
+  color: #BEB9B5;
+}

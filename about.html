@@ -7,11 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>About the Department</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- Bootstrap --
+    
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -19,6 +17,75 @@
     <![endif]-->
   </head>
   <body>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+     <div class="container" id="main">
+      <div class ="navbar navbar-inverse">
+        <div class="container">
+          <button type ="button" class="navbar-toggle"  data-target=".nav-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="/">Department of Physics</a>
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+          <div class="row" id= "nav">
+           <ul class="nav nav-pills">
+              <li role ="presentation" class="active"><a href="about.html">About</a> </li>
+              <li role ="presentation" class ="dropdown">
+                <a href="undergraduate.html" class="dropdown-toggle" data-toggle="dropdown">
+               Undergraduate <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li> <a href="apply.html">How to Apply</a></li>
+                  <li> <a href="requirements.html">Major/Minor Requirements</a></li>
+                </ul> 
+              </li>
+              <li role ="presentation" class="drowpdown">
+                <a href="graduate.html" class="dropdown-toggle" data-toggle="dropdown">
+             Graduate <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li> <a href="applyg.html">How to Apply</a></li>
+                  <li> <a href="support.html">Financial Support</a></li>
+                </ul>
+              </li>
+              
+              <li role ="presentation"><a href="faculty.html">Research Faculty</a></li>
+            </ul>
+          
+           </div>
+         </div>
+       </div>
+    </div>
+    
+      <div class="container">
+        <div id="about" class="col-sm-12 col-md-12 col-lg-12">
+          <img align="center" src="site/about.jpg">
+          <h1>About the Department of Physics</h1>
+          <hr />
+          <p>Welcome to the Department of Physics of Washington University in St. Louis.
+Physics is a vital field that is driven by the excitement of understanding and explaining the natural world around us. To achieve this goal physicists develop powerful quantitative problem-solving skills, using techniques that range across mathematics, computer programming, electronics, and engineering.
+
+Our faculty are world leaders in their fields of research. We have active groups working in astrophysics and space sciences, condensed matter and materials physics, particle and nuclear physics, and applications of physics to biology and medicine.
+
+Our graduate program offers incoming students generous support for their first two years, and a friendly community in which to pursue their research aspirations.
+
+For undergraduates, our department provides outstanding teaching combined with many opportunities to become involved in the cutting-edge research that is going on in our research groups.
+
+Here on our departmental web pages you can find much more information about our department, from admissions to course syllabuses and research activities. Please contact us if you want to know more.
+
+Enjoy your time with us!</p>
+        </div>
+        <div id="history" class="col-sm-12 col-md-12 col-lg-12">
+          <img align="center" src="site/history.gif" attribut"WayCrow Hall">
+          <h1>Department History</h1>
+          <p>The building, built in 1934, was designed by two Washington University architects, George W. Spearl and James P. Jamieson, to house the Department of Physics. Because of the nature of the experiments conducted, the building was constructed in such a manner that it is not subject to the Earth's natural vibrations, and contains a vertical shaft that extends the full height of the building for experiments that involve the study of falling objects. Construction for the building was made possible by $700,000 in gifts.</p>
+          <p>The building was dedicated in 1934 as Crow Hall, named for Wayman Crow (pictured at right), the state senator who drafted the University's charter and secured its passage through the state legislature. Before entering the state senate, Crow ran a wholesale dry goods business in St. Louis.
+
+When Crow drafted the University's charter he named his close friend William Greenleaf Eliot as chairman of the original Board of Trustees. Eliot served in that capacity from 1854 until his death in 1887. Wayman Crow was also on the board from 1854 until his death in 1885.</p>
+        </div>
+      </div>
+      <footer> Copyright</footer>
     
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
